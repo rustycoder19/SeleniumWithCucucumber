@@ -34,10 +34,7 @@ public class LoginStep extends BaseUtil{
     public void iNavigateToTheLoginPage() throws Throwable {
 
         System.out.println("Navigate Login Page");
-        System.out.println("1. LoginStep.java webdriver.chrome.driver = " + System.getProperty("webdriver.chrome.driver"));
         base.Driver.navigate().to("http://www.executeautomation.com/demosite/Login.html");
-        System.out.println("2. LoginStep.java webdriver.chrome.driver = " + System.getProperty("webdriver.chrome.driver"));
-
     }
 
 
